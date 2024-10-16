@@ -35,6 +35,11 @@ public class StudentApp {
         this.email = email;
     }
 
+    Override
+    public String toString() {
+        return "Student [name=" + name + ", course=" + course + ", email=" + email + "]";
+    }
+
 
 
 
